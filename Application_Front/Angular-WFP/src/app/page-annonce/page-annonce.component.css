@@ -1,0 +1,51 @@
+#conteneur-cartes {padding-top: 30px;}
+
+.carte-annonce {
+    min-width: 800px;
+    padding: 2%;
+    text-align: left;
+    display: inline-block;
+    border-style: hidden;
+    border-radius: 26px;
+    box-shadow: none;
+}
+
+p {max-width: 800px;}
+
+.lieux-carte, .prix-carte, .date-annonce,.lieux-carte {margin-top: 16px;}
+
+h2.titre-annonce {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #6740f4;
+}
+
+
+
+.lieux-carte p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #35db80;
+}
+
+.carte-annonce a {text-decoration: none;}
+
+.prix-carte {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6740f4;
+    text-decoration: none;
+    font-family: Poppins;}
+
+.redacteur-carte p {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 10px;
+    color: #353535;
+}
+
+.button-annonce{text-align: center;}

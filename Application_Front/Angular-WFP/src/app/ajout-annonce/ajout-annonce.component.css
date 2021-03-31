@@ -1,0 +1,27 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+button {
+    width: 222px;
+    height: 42px;
+    padding: 4px 0 0;
+}
+
+mat-card {border: none;box-shadow:none;}	
+mat-form-field{
+    width:100%
+}
+mat-card-title{
+    text-align: center;
+}
+
+
+::ng-deep .mat-horizontal-stepper-header-container .fil-ariane:selection {font-weight: bold;} 

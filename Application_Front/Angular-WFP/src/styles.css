@@ -1,0 +1,156 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700,700i,800,800i&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.contenu-utile, .contenu-utile-menu {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contenu-utile-int {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.clear {clear: both;}
+.left {float: left;}
+.right {float: right;}
+.big-title {font-size: 22px;font-weight:700;}
+.bold {font-weight:700;}
+.italic {font-style: italic;}
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.majuscule {text-transform: uppercase;}
+.text-align-left {text-align: left;}
+.text-align-right {text-align: right;}
+.text-deco {text-decoration: none;}
+.bg-vert {background-color: #35db80;}
+.bg-violet {background-color: #6740f4;}
+.bg-blanc {background-color: #FFF;}
+.text-violet {color: #6740f4;}
+.text-vert {color: #35db80;}
+.text-blanc {color: #FFF;}
+.text-gris {color:#353535;}
+hr {background-color:#dcdcdc; height:2px;margin: 20px 0;border: none;}
+
+p.text-intro {font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #6e6e6e;
+    padding-bottom:10px;}
+
+p { 
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #6e6e6e;
+    padding-bottom:10px;
+  }
+
+h3 {font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #353535;
+    padding:60px 0 20px 0;
+}
+
+.button, button {
+    width: 222px;
+    height: 32px;
+    border-radius: 19.5px;
+    display: inline-block;
+    padding: 8px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    margin-top:20px;
+    border: none;}
+
+.button:hover, button:hover  {background-color: #353535;color:#FFF;filter: opacity(0.9);}
+
+#disclaimer {
+    height:60px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+#section-asso { 
+    width:50%;
+    float:left; 
+    display: inline-block;
+    background-color:#6740f4;}
+#section-pro {    
+    width:50%;
+    display:inline-block;
+    background-color:#35db80;}
+#section-pro .button {float: right}
+#section-asso .contenu-utile-int, #section-pro .contenu-utile-int {padding-bottom: 60px;}
+
+#conteneur-cartes {background:#efefef;padding-bottom: 30px;text-align: center;}
+
+h4.titre-annonce {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #6740f4;
+}
+.lieux-carte, .prix-carte, .dates-annonce, .redacteur-carte {margin-top: 16px;}
+
+.lieux-carte p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #35db80;
+}
+
+.carte-annonce a {text-decoration: none;}
+
+.date-annonce  { 
+    font-family: Poppins;
+    font-size: 16px;
+    color: #353535;
+    vertical-align: super;}
+
+.prix-carte {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6740f4;
+    text-decoration: none;
+    font-family: Poppins;}
+
+.redacteur-carte p {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 10px;
+    color: #353535;
+}
+
+.button-annonce{text-align: center;}
+
+@media screen and (max-width: 1320px) {
+    .contenu-utile-menu {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .contenu-utile,  .contenu-utile-int {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #section-asso, #section-pro, #section-visuel-app, #section-text-app {width:100%;}
+    .right {float: none;}
+  }
+  
+  

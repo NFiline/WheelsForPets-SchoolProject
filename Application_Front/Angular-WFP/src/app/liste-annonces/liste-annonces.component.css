@@ -1,0 +1,11 @@
+.carte-annonce {
+    min-width: 352px;
+    min-height: 300px;
+    margin: 0 20px 20px 0;
+    padding: 2%;
+    display: inline-block;
+    border-style: hidden;
+    border-radius: 26px;
+    box-shadow: none;
+    text-align: left;
+}
